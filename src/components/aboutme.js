@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import Repositories from '../components/repos'
 
 class About extends Component {
   render() {
     return (
-      <div><h1>About Page</h1></div>
+      <div className="heading">
+          <Repositories />
+      </div>
     )
   }
 }

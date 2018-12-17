@@ -114,3 +114,18 @@
   font-size: 5em;
   padding: 8px;
 }
+
+div.heading h3{
+  margin-left: 600px;
+}
+
+form.forminput input {
+  margin-left: 630px;
+}
+
+div.repo {
+  align-items: center;
+}
+p.rep {
+  align-items: center;  
+}
