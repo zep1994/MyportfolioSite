@@ -19,8 +19,7 @@ class Projects extends Component {
             This is the description of the project
           </CardText>
           <CardActions border>
-            <Button colored>Github</Button>
-            <Button colored>CodePen</Button>
+          <Button colored><a href="https://github.com/zep1994/cli-data-gem-v-000" target="_blank" rel="noopener noreferrer">Github</a></Button>
             <Button colored>Live Demo</Button>
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
@@ -34,8 +33,7 @@ class Projects extends Component {
             This is the description of the project
           </CardText>
           <CardActions border>
-            <Button colored>Github</Button>
-            <Button colored>CodePen</Button>
+          <Button colored><a href="https://github.com/zep1994/Team-up" target="_blank" rel="noopener noreferrer">Github</a></Button>
             <Button colored>Live Demo</Button>
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
@@ -49,8 +47,7 @@ class Projects extends Component {
             This is the description of the project
           </CardText>
           <CardActions border>
-            <Button colored>Github</Button>
-            <Button colored>CodePen</Button>
+          <Button colored><a href="https://github.com/zep1994/Flatgram" target="_blank" rel="noopener noreferrer">Github</a></Button>
             <Button colored>Live Demo</Button>
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
@@ -68,8 +65,7 @@ class Projects extends Component {
               This is the description of the project
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
+            <Button colored><a href="https://github.com/zep1994/Team-up" target="_blank" rel="noopener noreferrer">Github</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -83,8 +79,7 @@ class Projects extends Component {
               This is the description of the project
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
+            <Button colored><a href="https://github.com/zep1994/Team-up" target="_blank" rel="noopener noreferrer">Github</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -98,8 +93,7 @@ class Projects extends Component {
               This is the description of the project
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
+            <Button colored><a href="https://github.com/zep1994/Team-up" target="_blank" rel="noopener noreferrer">Github</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -117,8 +111,7 @@ class Projects extends Component {
               This is the description of the project
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
+            <Button colored><a href="https://github.com/zep1994/js-tictactoe-rails-api-backend-v-000" target="_blank" rel="noopener noreferrer">Github</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -132,8 +125,7 @@ class Projects extends Component {
               This is the description of the project
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
+            <Button colored><a href="https://github.com/zep1994/js-tictactoe-rails-api-v-000" target="_blank" rel="noopener noreferrer">Github</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -147,8 +139,7 @@ class Projects extends Component {
               This is the description of the project
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
+            <Button colored><a href="https://github.com/zep1994/Team-up" target="_blank" rel="noopener noreferrer">Github</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -166,8 +157,7 @@ class Projects extends Component {
               This is the description of the project
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
+            <Button colored><a href="https://github.com/zep1994/Weather_app" target="_blank" rel="noopener noreferrer">Github</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -181,8 +171,7 @@ class Projects extends Component {
               This is the description of the project
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
+            <Button colored><a href="https://github.com/zep1994/Games_with_Friends_client" target="_blank" rel="noopener noreferrer">Github</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -196,8 +185,7 @@ class Projects extends Component {
               This is the description of the project
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
+              <Button colored><a href="https://github.com/zep1994/Burger_Builder" target="_blank" rel="noopener noreferrer">Github</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>

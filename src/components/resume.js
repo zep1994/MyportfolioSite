@@ -23,14 +23,13 @@ class Resume extends Component {
             <h2 style={{paddingTop: '2em'}}>Thomas Matlock</h2>
             <h2 style={{color: 'grey'}}>Programmer</h2>
               <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-                only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. I
-                </p>
+              <p>Full stack web developer with a passion for innovation and building. 
+                Budding entrepreneur with experience in Ruby on Rails, JavaScript, React, 
+                I bring strong skills in team-building and inspiring creativity that help innovative 
+                companies to build successful products.</p>
               <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
               <h5>Address</h5>
-              <p>Jackson, MS</p>
+              <p>Seeking relocation to the West Coast</p>
               <h5>Phone</h5>
               <p>601-812-8079</p>
               <h5>Email</h5>
@@ -61,28 +60,30 @@ class Resume extends Component {
                 startYear={2015}
                 endYear={2015}
                 jobName="Management Trainee - Enterprise Rent a Car"
-                jobDescription = "Management Trainee"
-              />
-
-              <Experience
-                startYear={2015}
-                endYear={2015}
-                jobName="Teacher Assistant - University of Mississippi"
-                jobDescription = "Management Trainee"
+                jobDescription = {`Analyzed monthly data to predict inventory fluctuations  and ensure revenue quotas were met
+                Cultivated personal long lasting relationships with customers, which increased customer retention 
+                Acted in supervisory capacity: reducing customer wait time
+                Earned the company thousands of dollars in extra revenue by providing customers 
+                information about the benefit of upgrading`}
               />
 
               <Experience
                 startYear={2016}
-                endYear={2018}
-                jobName="Web Development"
-                jobDescription = "Management Trainee"
+                endYear={2016}
+                jobName="Teacher Assistant - University of Mississippi"
+                jobDescription = {`
+               Oversaw 20+ students and kept a productive and engaging work environment for the students 
+               Engaged with freshmen students as a mentor providing guidance through their initial semester 
+               Facilitated small group discussions reinforcing professors content`}
               />
+
+              
               <hr style={{borderTop: '3px solid #e22947'}}/>
               <h2>Skills</h2>
 
               <Skills
                 skill="JavaScript"
-                progress={50}
+                progress={60}
               />
 
               <Skills
@@ -97,12 +98,12 @@ class Resume extends Component {
 
               <Skills
                 skill="React"
-                progress={40}
+                progress={80}
               />
 
               <Skills
                 skill="HTML/CSS"
-                progress={95}
+                progress={90}
               />
 
           </Cell>

@@ -8,7 +8,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://pbs.twimg.com/profile_images/857508248647282690/iZmsa9lG_400x400.jpg"
+              src="https://media.licdn.com/dms/image/C5603AQHUQeyZOzzb6g/profile-displayphoto-shrink_200_200/0?e=1553731200&v=beta&t=tsawIMXrTWmAu_wlQ0eRL65tTfrqPvxaTsBl3mwXDvA"
               alt="avatar"
               className="avatar-img"
             />
@@ -18,7 +18,7 @@ class Landing extends Component {
 
               <hr />
 
-              <p>HTML/CSS | Ruby on Rails | JavaScript | React | NodeJS | MongoDB | Bootstrap</p>
+              <p>HTML/CSS | Ruby on Rails | JavaScript | React | Redux | NodeJS | Bootstrap</p>
               <div className="social-links">
 
                 <a href="https://github.com/zep1994" target="_blank" rel="noopener noreferrer">
