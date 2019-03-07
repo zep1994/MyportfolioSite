@@ -11,190 +11,190 @@ class Projects extends Component {
 
   toggleCategories() {
     if (this.state.activeTab === 0) {
-      return(
-      <div className="projects-grid">
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover'}}>React Project #1</CardTitle>
-          <CardText>
-            This is the description of the project
+      return (
+        <div className="projects-grid">
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover' }}>React Project #1</CardTitle>
+            <CardText>
+              This is the description of the project
           </CardText>
-          <CardActions border>
-          <Button colored><a href="https://github.com/zep1994/cli-data-gem-v-000" target="_blank" rel="noopener noreferrer">Github</a></Button>
-            <Button colored>Live Demo</Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>
+            <CardActions border>
+              <Button colored><a href="https://github.com/zep1994/cli-data-gem-v-000" target="_blank" rel="noopener noreferrer">Github</a></Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
 
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover'}}>React Project #1</CardTitle>
-          <CardText>
-            This is the description of the project
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover' }}>React Project #1</CardTitle>
+            <CardText>
+              This is the description of the project
           </CardText>
-          <CardActions border>
-          <Button colored><a href="https://github.com/zep1994/Team-up" target="_blank" rel="noopener noreferrer">Github</a></Button>
-            <Button colored>Live Demo</Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>
+            <CardActions border>
+              <Button colored><a href="https://github.com/zep1994/Team-up" target="_blank" rel="noopener noreferrer">Github</a></Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
 
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover'}}>React Project #1</CardTitle>
-          <CardText>
-            This is the description of the project
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover' }}>React Project #1</CardTitle>
+            <CardText>
+              This is the description of the project
           </CardText>
-          <CardActions border>
-          <Button colored><a href="https://github.com/zep1994/Flatgram" target="_blank" rel="noopener noreferrer">Github</a></Button>
-            <Button colored>Live Demo</Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>
+            <CardActions border>
+              <Button colored><a href="https://github.com/zep1994/Flatgram" target="_blank" rel="noopener noreferrer">Github</a></Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
 
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover'}}>React Project #1</CardTitle>
-          <CardText>
-            This is the description of the project
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover' }}>React Project #1</CardTitle>
+            <CardText>
+              This is the description of the project
           </CardText>
-          <CardActions border>
-          <Button colored><a href="https://github.com/zep1994/Rails_Blog_with_Comments" target="_blank" rel="noopener noreferrer">Github</a></Button>
-            <Button colored>Live Demo</Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>
-      </div>
+            <CardActions border>
+              <Button colored><a href="https://github.com/zep1994/Rails_Blog_with_Comments" target="_blank" rel="noopener noreferrer">Github</a></Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        </div>
       )
     } else if (this.state.activeTab === 1) {
-      return(
+      return (
         <div className="projects-grid">
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://avatars3.githubusercontent.com/u/8312?s=400&v=4) center/ cover'}}>React Project #1</CardTitle>
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://avatars3.githubusercontent.com/u/8312?s=400&v=4) center/ cover' }}>React Project #1</CardTitle>
             <CardText>
               This is the description of the project
             </CardText>
             <CardActions border>
-            <Button colored><a href="https://github.com/zep1994/Team-up" target="_blank" rel="noopener noreferrer">Github</a></Button>
+              <Button colored><a href="https://github.com/zep1994/Team-up" target="_blank" rel="noopener noreferrer">Github</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
+            <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://avatars3.githubusercontent.com/u/8312?s=400&v=4) center/ cover'}}>React Project #1</CardTitle>
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://avatars3.githubusercontent.com/u/8312?s=400&v=4) center/ cover' }}>React Project #1</CardTitle>
             <CardText>
               This is the description of the project
             </CardText>
             <CardActions border>
-            <Button colored><a href="https://github.com/zep1994/Team-up" target="_blank" rel="noopener noreferrer">Github</a></Button>
+              <Button colored><a href="https://github.com/zep1994/Team-up" target="_blank" rel="noopener noreferrer">Github</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
+            <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://avatars3.githubusercontent.com/u/8312?s=400&v=4) center/ cover'}}>React Project #1</CardTitle>
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://avatars3.githubusercontent.com/u/8312?s=400&v=4) center/ cover' }}>React Project #1</CardTitle>
             <CardText>
               This is the description of the project
             </CardText>
             <CardActions border>
-            <Button colored><a href="https://github.com/zep1994/Team-up" target="_blank" rel="noopener noreferrer">Github</a></Button>
+              <Button colored><a href="https://github.com/zep1994/Team-up" target="_blank" rel="noopener noreferrer">Github</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
+            <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
         </div>
       )
     } else if (this.state.activeTab === 2) {
-      return(
+      return (
         <div className="projects-grid">
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://pbs.twimg.com/profile_images/691206086955790336/CDMbA57p_400x400.png) center/ cover'}}>React Project #1</CardTitle>
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://pbs.twimg.com/profile_images/691206086955790336/CDMbA57p_400x400.png) center/ cover' }}>React Project #1</CardTitle>
             <CardText>
               This is the description of the project
             </CardText>
             <CardActions border>
-            <Button colored><a href="https://github.com/zep1994/js-tictactoe-rails-api-backend-v-000" target="_blank" rel="noopener noreferrer">Github</a></Button>
+              <Button colored><a href="https://github.com/zep1994/js-tictactoe-rails-api-backend-v-000" target="_blank" rel="noopener noreferrer">Github</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
+            <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://pbs.twimg.com/profile_images/691206086955790336/CDMbA57p_400x400.png) center/ cover'}}>React Project #1</CardTitle>
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://pbs.twimg.com/profile_images/691206086955790336/CDMbA57p_400x400.png) center/ cover' }}>React Project #1</CardTitle>
             <CardText>
               This is the description of the project
             </CardText>
             <CardActions border>
-            <Button colored><a href="https://github.com/zep1994/js-tictactoe-rails-api-v-000" target="_blank" rel="noopener noreferrer">Github</a></Button>
+              <Button colored><a href="https://github.com/zep1994/js-tictactoe-rails-api-v-000" target="_blank" rel="noopener noreferrer">Github</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
+            <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://pbs.twimg.com/profile_images/691206086955790336/CDMbA57p_400x400.png) center/ cover'}}>React Project #1</CardTitle>
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://pbs.twimg.com/profile_images/691206086955790336/CDMbA57p_400x400.png) center/ cover' }}>React Project #1</CardTitle>
             <CardText>
               This is the description of the project
             </CardText>
             <CardActions border>
-            <Button colored><a href="https://github.com/zep1994/Team-up" target="_blank" rel="noopener noreferrer">Github</a></Button>
+              <Button colored><a href="https://github.com/zep1994/Team-up" target="_blank" rel="noopener noreferrer">Github</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
+            <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
         </div>
       )
     } else if (this.state.activeTab === 3) {
-      return(
+      return (
         <div className="projects-grid">
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/ cover'}}>React Project #1</CardTitle>
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/ cover' }}>React Project #1</CardTitle>
             <CardText>
               This is the description of the project
             </CardText>
             <CardActions border>
-            <Button colored><a href="https://github.com/zep1994/Weather_app" target="_blank" rel="noopener noreferrer">Github</a></Button>
+              <Button colored><a href="https://github.com/zep1994/Weather_app" target="_blank" rel="noopener noreferrer">Github</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
+            <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/ cover'}}>React Project #1</CardTitle>
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/ cover' }}>React Project #1</CardTitle>
             <CardText>
               This is the description of the project
             </CardText>
             <CardActions border>
-            <Button colored><a href="https://github.com/zep1994/Games_with_Friends_client" target="_blank" rel="noopener noreferrer">Github</a></Button>
+              <Button colored><a href="https://github.com/zep1994/Games_with_Friends_client" target="_blank" rel="noopener noreferrer">Github</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
+            <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/ cover'}}>React Project #1</CardTitle>
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/ cover' }}>React Project #1</CardTitle>
             <CardText>
               This is the description of the project
             </CardText>
@@ -202,7 +202,7 @@ class Projects extends Component {
               <Button colored><a href="https://github.com/zep1994/Burger_Builder" target="_blank" rel="noopener noreferrer">Github</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
+            <CardMenu style={{ color: '#fff' }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
