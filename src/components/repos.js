@@ -13,10 +13,10 @@ class Repositories extends React.Component {
 
   getRepos(username) {
     return fetch(`https://api.github.com/users/${username}`)
-    .then(response => response.json())
-    .then(response => {
-      return response
-    })
+      .then(response => response.json())
+      .then(response => {
+        return response
+      })
   }
 
   async handleSubmit(e) {
@@ -32,22 +32,30 @@ class Repositories extends React.Component {
 
   render() {
     let user
-    if(this.state.username) {
+    if (this.state.username) {
       user = <div className="repo">
         <p className="rep">{this.state.username}<br />
-           {this.state.id}<br />
-           {this.state.url}<br />
+          <a href={this.state.url}>Git API URL</a><br />
         </p>
-        <img src={this.state.avatar_url} />
+        <img alt="git_user" src={this.state.avatar_url} />
       </div>
     }
     return (
-      <div>
-        <h3>Repositories</h3>
-        <form className="forminput" onSubmit={e => this.handleSubmit(e)}>
-          <input type="text" ref="username" placeholder="username" />
-        </form>
-        {user}
+      <div className="repo-content">
+      <h3>Repositories</h3>
+        <div className=" split left">
+          <form className="repo-form" onSubmit={e => this.handleSubmit(e)}>
+            <input type="text" ref="username" className="repo-input" placeholder="username" />
+          </form>
+        </div>
+        
+
+
+        <div className="split right">
+          <div className="centered">
+            {user}
+          </div>
+        </div>
       </div>
     )
   }

@@ -9,18 +9,17 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Thomas Matlock</h2>
             <img
-             src="http://icons-for-free.com/free-icons/png/512/628290.png"
-             alt="avatar"
-             className="imgav"
-             style={{height: '250px'}}
+              src="http://icons-for-free.com/free-icons/png/512/628290.png"
+              alt="avatar"
+              className="imgav"
+              style={{ height: '250px' }}
             />
-            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
-            I love coding and spend just about all day coding. I learned that my creativity
-            and desire to innovate was rooted in computers. Everything I could think of involved
-            a piece of software one way or another. I started with php and when I got into
-            Flatiron School I learned Ruby on Rails and JavaScript which are now my favorite work
-            with. I then got into React, which this website was built with. I am currently attending Flatiron
-            School and will be done this December. I will begin looking for a job as Junior Web Developer.
+            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
+              Full stack web developer spending my days learning how I learn.
+              There are a lot technologies out there, but how do I go about learning the most 
+              effective and efficient way? I love Ruby and JavaScript, in particular, using a 
+              Rails backend with a React front end. For state management, I love Redux. I have 
+              a couple of projects in React VR that are a blast to work on. I love virtual Reality.  
             </p>
           </Cell>
           <Cell col={6}>
@@ -28,36 +27,36 @@ class Contact extends Component {
             <hr />
 
             <div className="contact-list">
-               <List>
-                 <ListItem>
-                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                     (601) 812-8079
-                   </ListItemContent>
-                 </ListItem>
-
-
-                 <ListItem>
-                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                     <i className="fab fa-github" aria-hidden="true"/>
-                     zep1994
-                   </ListItemContent>
-                 </ListItem>
-
-                 <ListItem>
-                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                      <i className="fa fa-envelope" aria-hidden="true"/>
-                      thomasmatlockbba@gmail.com
+              <List>
+                <ListItem>
+                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                    <i className="fa fa-phone-square" aria-hidden="true" />
+                    (601) 812-8079
                     </ListItemContent>
-                  </ListItem>
+                </ListItem>
 
-                 <ListItem>
-                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                     <i className="fab fa-twitter" aria-hidden="true"/>
-                     @SnaxBags
-                   </ListItemContent>
-                 </ListItem>
-                </List>
+
+                <ListItem>
+                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                    <i className="fab fa-github" aria-hidden="true" />
+                    zep1994
+                    </ListItemContent>
+                </ListItem>
+
+                <ListItem>
+                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                    <i className="fa fa-envelope" aria-hidden="true" />
+                    thomasmatlockbba@gmail.com
+                    </ListItemContent>
+                </ListItem>
+
+                <ListItem>
+                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                    <i className="fab fa-twitter" aria-hidden="true" />
+                    @_ThomasMatlock
+                    </ListItemContent>
+                </ListItem>
+              </List>
             </div>
           </Cell>
         </Grid>

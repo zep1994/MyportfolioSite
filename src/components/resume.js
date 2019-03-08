@@ -35,11 +35,11 @@ class Resume extends Component {
             <h5>Email</h5>
             <p>thomasmatlockbba@gmail.com</p>
             <h5>Blog</h5>
-            <a href="https://medium.com/@zipserfive" target="_blank">@zipserfive</a>
+            <a href="https://medium.com/@zipserfive" target="_blank" rel="noopener noreferrer">@zipserfive</a>
             <h5>Github</h5>
-            <a href="https://github.com/zep1994" target="_blank">zep1994</a>
+            <a href="https://github.com/zep1994" target="_blank" rel="noopener noreferrer">zep1994</a>
             <h5>LinkedIn</h5>
-            <a href="https://www.linkedin.com/in/twmatlock/" target="_blank">Thomas Matlock</a>
+            <a href="https://www.linkedin.com/in/twmatlock/" target="_blank" rel="noopener noreferrer">Thomas Matlock</a>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>

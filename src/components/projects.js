@@ -14,9 +14,9 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover' }}>React Project #1</CardTitle>
+            <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover' }}>CLI DATA GEM</CardTitle>
             <CardText>
-              This is the description of the project
+              CLI DATA GEM
           </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/zep1994/cli-data-gem-v-000" target="_blank" rel="noopener noreferrer">Github</a></Button>
@@ -28,9 +28,9 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover' }}>React Project #1</CardTitle>
+            <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover' }}>TEAM UP</CardTitle>
             <CardText>
-              This is the description of the project
+              TEAM UP, pair up teams!
           </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/zep1994/Team-up" target="_blank" rel="noopener noreferrer">Github</a></Button>
@@ -42,9 +42,9 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover' }}>React Project #1</CardTitle>
+            <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover' }}>FLATGRAM</CardTitle>
             <CardText>
-              This is the description of the project
+              Instagram Clone
           </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/zep1994/Flatgram" target="_blank" rel="noopener noreferrer">Github</a></Button>
@@ -56,7 +56,7 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover' }}>React Project #1</CardTitle>
+            <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover' }}>RAILS BLOG WITH COMMENTS</CardTitle>
             <CardText>
               This is the description of the project
           </CardText>
@@ -68,7 +68,78 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover' }}>Fortnite Coaching</CardTitle>
+            <CardText>
+              CONNECT WITH GAMING TEACHERS
+          </CardText>
+            <CardActions border>
+              <Button colored><a href="https://github.com/zep1994/Fortnite_Coaching" target="_blank" rel="noopener noreferrer">Github</a></Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover' }}>RAILS BOOK STORE</CardTitle>
+            <CardText>
+              RAILS BOOK STORE
+          </CardText>
+            <CardActions border>
+              <Button colored><a href="https://github.com/zep1994/Rails_Book_Store" target="_blank" rel="noopener noreferrer">Github</a></Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover' }}>RAILS DRINKING GAME API</CardTitle>
+            <CardText>
+              The API for the drinking game React frontend
+          </CardText>
+            <CardActions border>
+              <Button colored><a href="https://github.com/zep1994/GamesForDrinkingWithFriends" target="_blank" rel="noopener noreferrer">Github</a></Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover' }}>RAILS GITHUB API</CardTitle>
+            <CardText>
+              FIND USERS FROM GITHUB IN RAILS
+          </CardText>
+            <CardActions border>
+              <Button colored><a href="https://github.com/zep1994/rails-github-api-v-000" target="_blank" rel="noopener noreferrer">Github</a></Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#000', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*sZSVVtdP9TE3mUoGh4GoYA.png) center/ cover' }}>RUBY TIC TAC TOE W/ AI</CardTitle>
+            <CardText>
+              TTT with AI
+          </CardText>
+            <CardActions border>
+              <Button colored><a href="https://github.com/zep1994/ttt-with-ai-project" target="_blank" rel="noopener noreferrer">Github</a></Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
+        
       )
     } else if (this.state.activeTab === 1) {
       return (
@@ -148,9 +219,9 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://pbs.twimg.com/profile_images/691206086955790336/CDMbA57p_400x400.png) center/ cover' }}>React Project #1</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://pbs.twimg.com/profile_images/691206086955790336/CDMbA57p_400x400.png) center/ cover' }}>Team Up</CardTitle>
             <CardText>
-              This is the description of the project
+              Connect with Team Mates
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/zep1994/Team-up" target="_blank" rel="noopener noreferrer">Github</a></Button>
@@ -166,9 +237,9 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/ cover' }}>React Project #1</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/ cover' }}>Weather App</CardTitle>
             <CardText>
-              This is the description of the project
+              WEATHER APP API
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/zep1994/Weather_app" target="_blank" rel="noopener noreferrer">Github</a></Button>
@@ -180,9 +251,9 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/ cover' }}>React Project #1</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/ cover' }}>Drinking Game</CardTitle>
             <CardText>
-              This is the description of the project
+              Social Voting on Drinking Games 
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/zep1994/Games_with_Friends_client" target="_blank" rel="noopener noreferrer">Github</a></Button>
@@ -194,12 +265,54 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/ cover' }}>React Project #1</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/ cover' }}>Burger Builder</CardTitle>
             <CardText>
-              This is the description of the project
+              Build Burgers with React 
             </CardText>
             <CardActions border>
               <Button colored><a href="https://github.com/zep1994/Burger_Builder" target="_blank" rel="noopener noreferrer">Github</a></Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/ cover' }}>HackerNews</CardTitle>
+            <CardText>
+              Pull from HackerNews API 
+            </CardText>
+            <CardActions border>
+              <Button colored><a href="https://github.com/zep1994/Hacker_News-React-" target="_blank" rel="noopener noreferrer">Github</a></Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/ cover' }}>Fortnite Coaching</CardTitle>
+            <CardText>
+              Connect with other gamers who want to teach 
+            </CardText>
+            <CardActions border>
+              <Button colored><a href="https://github.com/zep1994/Fortnite_Coaching" target="_blank" rel="noopener noreferrer">Github</a></Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/ cover' }}>React Timer</CardTitle>
+            <CardText>
+              Just a simple React Timer 
+            </CardText>
+            <CardActions border>
+              <Button colored><a href="https://github.com/zep1994/React_timer" target="_blank" rel="noopener noreferrer">Github</a></Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
