@@ -33,7 +33,7 @@ class Landing extends Component {
                 <i className="fab fa-youtube-square" aria-hidden="true" />
                 </a>
 
-                <a href="https://twitter.com/Snaxbags" target="_blank" rel="noopener noreferrer">
+                <a href="https://twitter.com/_ThomasMatlock" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-twitter-square" aria-hidden="true" />
                 </a>
 
