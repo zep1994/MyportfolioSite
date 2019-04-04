@@ -307,7 +307,7 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/ cover' }}>React Timer</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/ cover' }}>React Timer </CardTitle>
             <CardText>
               Just a simple React Timer 
             </CardText>
